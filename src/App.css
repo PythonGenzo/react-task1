@@ -10,6 +10,11 @@
  
 
 }
+.App-1:hover {
+  box-shadow: 0 30px 70px #000;
+  transform: scale3d(1.05, 1.05, 1.05);
+}
+
 .App-1 {
   margin-top: 5px;
   width: auto;
@@ -57,4 +62,9 @@ button {
   padding: 20px;
   border-radius: 30px;
   border: none;
+}
+
+button:hover {
+  box-shadow: 0 30px 70px #000;
+  transform: scale3d(1.05, 1.05, 1.05);
 }
